@@ -1,0 +1,40 @@
+  /* about me*/
+  .aboutme {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.ABOUTME-HEAD {
+    text-align: center;
+    grid-column: 1 / -1; /* 전체 열을 차지하도록 설정 */
+}
+
+.item-container {
+    display: flex; 
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.imgclass-me img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-position1 {
+    font-weight: bold;
+}
+
+.name-position2 {
+    margin-top: 5px;
+}
